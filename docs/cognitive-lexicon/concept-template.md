@@ -32,6 +32,20 @@ Describe why this concept is essential for reasoning and decision-making.
 
 ---
 
+## Cognitive Contract
+
+### Input
+
+...
+
+### Transformation
+
+...
+
+### Output
+
+...
+
 ## Relationships
 
 Describe how this concept connects with other concepts.
