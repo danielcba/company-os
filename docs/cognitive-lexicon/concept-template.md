@@ -46,6 +46,8 @@ Describe why this concept is essential for reasoning and decision-making.
 
 ...
 
+---
+
 ## Relationships
 
 Describe how this concept connects with other concepts.
@@ -81,7 +83,7 @@ This prevents ambiguity.
 
 Explain how this concept influences the architecture of Company OS.
 
-This section connects philosophy with engineering.
+This section explains how the concept influences both cognitive reasoning and software architecture.
 
 ---
 
