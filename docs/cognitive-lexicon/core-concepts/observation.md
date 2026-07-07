@@ -109,3 +109,4 @@ Separating observation from interpretation prevents cognitive bias and improves 
 Future versions may classify observations according to their origin, reliability, temporal characteristics, or confidence level.
 
 The fundamental definition of Observation should remain stable.
+
