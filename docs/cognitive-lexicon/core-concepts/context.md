@@ -178,6 +178,10 @@ Future versions may formalize:
 
 # Cognitive Principle
 
-Meaning is never extracted directly from reality.
+- Meaning is never extracted directly from reality.
 
-Meaning emerges when evidence is interpreted through the most coherent mental model for a specific purpose.
+- Meaning emerges when evidence is interpreted through the most coherent mental model for a specific purpose.
+
+---
+
+
