@@ -42,5 +42,4 @@ The ontology is the map that allows every human and every AI agent to reason usi
 
 ## Evolution
 
-
-
+---
