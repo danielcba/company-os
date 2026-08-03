@@ -59,7 +59,7 @@ Full definitions: [docs/cognitive-lexicon/cognitive-principles.md](docs/cognitiv
 
 ```
 Reality → Observation → Evidence → Context → Pattern → Anomaly
-       → Hypothesis → Insight → Confidence → Recommendation → Decision → Memory
+       → Hypothesis → Insight → Confidence → Recommendation → Decision → Memory (planned)
 ```
 
 ---

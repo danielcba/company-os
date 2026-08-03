@@ -17,7 +17,7 @@ Concepts are the vocabulary.
 Principles are the grammar.
 
 The Cognitive Lexicon defines concepts.
-The Cognitive Principles define the laws that the concepts obey.
+The Cognitive Principles formalize the claims that the concepts follow.
 
 ---
 
@@ -32,7 +32,7 @@ Observations are immutable.
 Meaning is never extracted directly from reality.
 Meaning emerges later, through reasoning.
 
-Separating observation from interpretation prevents cognitive bias and preserves explainability.
+Separating observation from interpretation is designed to reduce cognitive bias and preserve explainability.
 
 ### P2 — Explanatory Coherence
 

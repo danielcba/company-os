@@ -153,7 +153,7 @@ The model providing the strongest coherent explanation becomes the Active Contex
 
 Reasoning continues from that Context.
 
-This architecture allows multiple valid interpretations while preventing arbitrary conclusions.
+This architecture allows multiple valid interpretations while reducing the risk of arbitrary conclusions.
 
 ---
 

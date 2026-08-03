@@ -67,7 +67,7 @@ Phase 2 (Architecture) has begun.
 
 ```
 Reality → Observation → Evidence → Context → Pattern → Anomaly
-       → Hypothesis → Insight → Confidence → Recommendation → Decision → Memory
+       → Hypothesis → Insight → Confidence → Recommendation → Decision → Memory (planned)
 ```
 
 All ten concepts are Official.

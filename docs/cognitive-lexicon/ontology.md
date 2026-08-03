@@ -82,7 +82,7 @@ Relationships define how cognitive concepts interact.
 | Enables | One concept makes another possible without originating it | A ⇢ B | Evidence ⇢ Context |
 | Applies To | One concept assesses or governs another | A ↦ B | Confidence ↦ Decision |
 | Affects | One concept modulates another | A ⇝ B | Confidence ⇝ Decision threshold |
-| Improved By | One concept improves through feedback from another | A ← B | Confidence ← Memory |
+| Improved By | One concept improves through feedback from another | A ← B | Confidence ← Memory (planned) |
 
 Full definitions: [relationships.md](relationships.md)
 
@@ -156,6 +156,6 @@ Concepts are added only when they demonstrate a distinct cognitive capability th
 
 > The ontology is the map.
 >
-> The principles are the laws.
+> The principles are formalized claims.
 >
 > The transformations are the intelligence.

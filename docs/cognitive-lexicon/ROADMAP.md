@@ -8,7 +8,7 @@ Owner: Company OS
 
 ## Status Legend
 
-- **Official** — completed, validated, frozen.
+- **Official** — accepted into the canon; validation status varies by document (see each document's Status).
 - **Draft** — proposed, under validation.
 - **Future** — planned, not started.
 
@@ -16,7 +16,6 @@ Owner: Company OS
 
 ## Official
 
-- [x] README
 - [x] Ontology
 - [x] Concept Template
 - [x] Relationships
@@ -51,7 +50,7 @@ Owner: Company OS
 
 The Lexicon reached Official status for all ten Core Concepts and its supporting assets.
 
-The Cognitive Flow is fully defined from Reality to Memory.
+The Cognitive Flow is fully defined from Reality to Memory (planned).
 
 The next phase moves from the Lexicon to the Architecture: implementing the cognitive contracts as computational components.
 

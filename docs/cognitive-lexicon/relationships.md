@@ -1,6 +1,6 @@
 # Relationships
 
-Version: 1.1
+Version: 1.2
 Status: Official
 Owner: Company OS
 
@@ -193,10 +193,15 @@ Concept files use the following passive forms, each equivalent to the inverse of
 | Observation | Refines | Context |
 | Evidence | Requires | Observation |
 | Evidence | Supports | Hypothesis |
+| Evidence | Supports | Confidence |
 | Evidence | Enables | Context |
 | Context | Produces | Pattern |
 | Context | Requires | Evidence |
+| Context | Enables | Hypothesis |
+| Pattern | Requires | Context |
 | Pattern | Supports | Hypothesis |
+| Pattern | Supports | Confidence |
+| Pattern | Refines | Context |
 | Pattern | Leads To | Anomaly |
 | Anomaly | Contradicts | Context |
 | Anomaly | Leads To | Hypothesis |
@@ -204,14 +209,21 @@ Concept files use the following passive forms, each equivalent to the inverse of
 | Hypothesis | Contradicts | Hypothesis |
 | Hypothesis | Leads To | Insight |
 | Hypothesis | Leads To | Recommendation |
+| Insight | Supports | Confidence |
 | Insight | Refines | Context |
 | Insight | Refines | Hypothesis |
 | Insight | Leads To | Recommendation |
 | Confidence | Applies To | Hypothesis, Recommendation, Decision |
 | Confidence | Affects | Recommendation strength, Decision threshold |
 | Confidence | Improved By | Memory (planned), Learning |
-| Recommendation | Leads To | Decision |
+| Recommendation | Requires | Context |
+| Recommendation | Requires | Hypothesis |
 | Recommendation | Requires | Confidence |
+| Recommendation | Leads To | Decision |
+| Decision | Requires | Context |
+| Decision | Requires | Hypothesis |
+| Decision | Requires | Insight |
+| Decision | Requires | Confidence |
 | Decision | Leads To | Memory (planned) |
 | Memory (planned) | Supports | Confidence |
 

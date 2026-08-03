@@ -62,10 +62,6 @@ Generate candidate explanations that account for the current situation and are c
 
 ## Relationships
 
-### Produced By
-
-Anomaly, Pattern, or Context
-
 ### Supported By
 
 Evidence and Pattern

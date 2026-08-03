@@ -61,10 +61,6 @@ Restructure the relationship between existing knowledge elements to produce a mo
 
 ## Relationships
 
-### Produced By
-
-Hypothesis evaluation and pattern integration
-
 ### Refines
 
 Context and Hypothesis

@@ -66,10 +66,6 @@ Derive the course of action that best serves the current purpose under the const
 
 ## Relationships
 
-### Produced By
-
-Insight and/or Hypothesis, informed by Confidence
-
 ### Depends On
 
 Context, Hypothesis, and Confidence

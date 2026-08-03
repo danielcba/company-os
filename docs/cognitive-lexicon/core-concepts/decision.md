@@ -82,21 +82,17 @@ This rule converts every decision from an act of authority into an experiment.
 
 ## Relationships
 
-### Produced By
-
-Recommendation, evaluated through Confidence
-
 ### Depends On
 
 Context, Hypothesis, Insight, and Confidence
 
 ### Leads To
 
-Memory (the decision and its outcome become part of the system's history)
+Memory (planned) (the decision and its outcome will become part of the system's history)
 
 ### Evaluated By
 
-Outcome (through Memory and Learning)
+Outcome — a reference to the results managed by Memory (planned) and Learning
 
 ---
 

@@ -55,6 +55,8 @@ Rules adopted:
 - Core Concepts describe cognition, not software.
 - Every new concept must belong to a cognitive family.
 
+> Addendum (2026-08-02): "Principles become Official only after validation" is clarified. Official status means a principle is formalized and accepted into the canon as a hypothesis; validation is a separate, later phase (Phase 4). A principle becomes a law only after it survives confrontation with experience (see cognitive-principles.md, "Status of the Principles").
+
 ---
 
 ### D-2026-07-07 — The Template Is Frozen

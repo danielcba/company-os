@@ -42,7 +42,7 @@ This means:
 1. Every perception of the organization passes through Company OS.
 2. Every interpretation is governed by the Cognitive Principles.
 3. Every decision is the result of the Cognitive Flow.
-4. Every outcome is consolidated into Memory and used to learn.
+4. Every outcome is consolidated into Memory (planned) and used to learn.
 
 ---
 

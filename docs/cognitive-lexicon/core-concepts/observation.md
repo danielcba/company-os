@@ -118,7 +118,7 @@ Observations are immutable.
 
 Meaning is added later through reasoning.
 
-Separating observation from interpretation prevents cognitive bias and improves explainability.
+Separating observation from interpretation is designed to reduce cognitive bias and improve explainability.
 
 ---
 

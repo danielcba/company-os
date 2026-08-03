@@ -49,7 +49,7 @@ It is the brain the organization can point at any problem.
 
 - A shared cognitive language.
 - A governed pipeline from perception to action.
-- A cognitive boundary that prevents unauthorized action.
+- A cognitive boundary designed to prevent unauthorized action.
 
 ---
 

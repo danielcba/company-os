@@ -79,7 +79,7 @@ Language conventions:
 
 Planned assets:
 
-- A flow mark representing the Cognitive Flow: `Reality → Observation → ... → Decision → Memory`
+- A flow mark representing the Cognitive Flow: `Reality → Observation → ... → Decision → Memory (planned)`
 - A monochrome palette: deep neutral tones with one accent for Confidence or Decision.
 - A diagram system that mirrors the ontology and stays synchronized with it.
 

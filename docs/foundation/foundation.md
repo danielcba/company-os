@@ -39,11 +39,11 @@ Observation and interpretation are separated by an explicit boundary.
 - Observations are immutable facts.
 - Interpretation is a selection among mental models by explanatory coherence.
 
-This separation:
+This separation is designed to:
 
-- Prevents cognitive bias,
-- Preserves explainability,
-- Makes every interpretation auditable and revisable.
+- Reduce cognitive bias,
+- Preserve explainability,
+- Keep every interpretation auditable and revisable.
 
 ---
 
