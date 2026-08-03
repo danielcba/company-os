@@ -34,6 +34,14 @@ It communicates a system — not a feature, not a product, not a document.
 
 The name positions the project as an operating layer: what the organization runs on.
 
+### Naming Distinction
+
+The name "Company OS" also exists in other software projects (an npm package and an AI-assistant skill). Company OS is none of those.
+
+Company OS is a cognitive architecture framework: a lexicon, an ontology, and an engineering discipline for organizational cognition.
+
+It is not an operating system, a graphic engine, or an agent tool. The distinction is the architecture: it defines how an organization perceives, reasons, decides, and learns — for humans and AI agents alike.
+
 ---
 
 ## Positioning Statement

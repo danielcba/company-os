@@ -87,6 +87,7 @@ Revenue: services and certifications.
 - Dilution of the Principles for commercial convenience.
 - Competing as a point product instead of a platform.
 - Losing the recovery discipline that keeps the project independent of conversations.
+- Adoption resistance from organizational cognitive load: the discipline requires every participant to adopt a structured vocabulary and workflow.
 
 ---
 

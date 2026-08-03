@@ -125,7 +125,7 @@ company-os-main/
 
 ## Licencia
 
-Por definir.
+Publicado bajo la [Licencia Apache 2.0](LICENSE).
 
 ---
 

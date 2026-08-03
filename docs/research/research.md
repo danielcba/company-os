@@ -80,6 +80,8 @@ The architecture converges with established research traditions:
 | Common Model of Cognition (Laird et al.) | Perception, memory, action, learning, metacognition |
 | Signal Detection Theory (Type 2) | Confidence as metacognitive measurement |
 | Decision theory (von Neumann & Morgenstern, 1944) | Recommendation and Decision under uncertainty |
+| Cognitive architectures (Soar; ACT-R) | Taskable production-system models of the mind |
+| Organizational learning (Argyris & Schön, 1978; Nonaka, 1994) | How organizations build and share knowledge |
 
 Company OS is not a claim of novelty against these traditions.
 It is a disciplined architecture that makes them operational for organizations.
@@ -95,6 +97,36 @@ It is a disciplined architecture that makes them operational for organizations.
 - How does the system detect that its current frame has failed (the trigger of Insight)?
 - How does Memory consolidate decisions into reusable knowledge?
 - How are the seven Cognitive Principles validated against real outcomes?
+
+---
+
+## Validation Plan
+
+The architecture's claims are falsifiable. Validation proceeds through measurement, not assertion.
+
+### What Is Validated
+
+- The seven Cognitive Principles, against real outcomes (Phase 4).
+- Confidence calibration, against observed outcome frequencies.
+- The Cognitive Flow, as a usable and traceable decision path.
+
+### Metrics
+
+- Calibration: Brier score and Expected Calibration Error (ECE) of confidence reports.
+- Decision quality: accuracy of expected vs. actual outcomes.
+- Traceability: the fraction of conclusions whose reasoning chain is recoverable.
+
+### Methods
+
+- Simulated environments exercising the flow (e.g., a simulated organization).
+- Historical decision data, replayed through the flow.
+- Reference deployments that record outcomes and calibration.
+
+### Falsification Criterion
+
+A principle is not assumed true. It is retained only while its predictions survive measurement; a principle that fails is revised or rejected.
+
+The plan is executed in Phase 4; results are recorded in the journal.
 
 ---
 
@@ -116,6 +148,10 @@ It is a disciplined architecture that makes them operational for organizations.
 - Laird, J. E., Lebiere, C., & Rosenbloom, P. S. (2017). A Standard Model of the Mind: Toward a Common Computational Framework Across Artificial Intelligence, Cognitive Science, Neuroscience, and Robotics. AI Magazine, 38(4), 13–26.
 - Howson, C., & Urbach, P. (2006). Scientific Reasoning: The Bayesian Approach (3rd ed.). Open Court.
 - von Neumann, J., & Morgenstern, O. (1944). Theory of Games and Economic Behavior. Princeton University Press.
+- Laird, J. E., Newell, A., & Rosenbloom, P. S. (1987). SOAR: An Architecture for General Intelligence. Artificial Intelligence, 33(1), 1–64.
+- Anderson, J. R., Bothell, D., Byrne, M. D., Douglass, S., Lebiere, C., & Qin, Y. (2004). An Integrated Theory of the Mind. Psychological Review, 111(4), 1036–1060.
+- Argyris, C., & Schön, D. A. (1978). Organizational Learning: A Theory of Action Perspective. Addison-Wesley.
+- Nonaka, I. (1994). A Dynamic Theory of Organizational Knowledge Creation. Organization Science, 5(1), 14–37.
 
 ---
 
