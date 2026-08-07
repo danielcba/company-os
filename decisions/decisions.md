@@ -89,6 +89,43 @@ The architecture phase begins: translating cognitive contracts into computationa
 
 ---
 
+### D-2026-08-07 — SAP R/3 Integration Is an External, Non-Canonical Capability
+
+**Status:** Accepted
+
+**Context:** The implementation repository `company-os-monitor` needs to post
+downtime costs and weighted metrics to SAP R/3 (ECC) for a datacenter
+observability platform. No cognitive concept covers this integration; the canon
+contains no decision about it. Per E2 ("A component that does not map to a
+concept has no place in the system") and R9 ("The architecture guides the code,
+never the opposite"), the integration must not be treated as a cognitive
+component of the architecture.
+
+**Decision:** The SAP R/3 integration is an external, non-canonical capability
+of `company-os-monitor`. It is not a cognitive concept, is not part of the
+Cognitive Lexicon, and does not alter the canonical flow. It is implemented as
+an interchangeable gateway:
+
+- Transport: RFC/BAPI via PyRFC (SAP NW RFC SDK), optional dependency.
+- Downtime cost: `cost = hours_down * rate_per_hour` (asset/service rate).
+- Posting: `BAPI_ACC_ACTIVITY_ALLOC_POST` (activity allocation) and
+  `BAPI_ACC_DOCUMENT_POST`; always `BAPI_TRANSACTION_COMMIT` after success and
+  `BAPI_TRANSACTION_ROLLBACK` on error.
+- Weighted metrics: sent with per-asset/service weights.
+- A mock mode is provided for development and tests; it must never be enabled
+  in production.
+
+**Consequences:**
+
+- E2 holds: the capability is external; it does not claim a concept slot.
+- R9 holds: the architecture guides the code; the integration adapts to the
+  canon, not the other way around.
+- Traceability: any future change to the SAP capability is documented here or
+  in an ADR/RFC before the code changes.
+- The first implementation of this decision lives in `company-os-monitor`.
+
+---
+
 ## Directive 001 — Recovery First
 
 **Status:** Recorded
