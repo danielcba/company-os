@@ -126,6 +126,47 @@ an interchangeable gateway:
 
 ---
 
+### D-2026-08-09 — COS-Monitor Expands into a Product; External Capabilities Follow a Product Blueprint
+
+**Status:** Accepted
+
+**Context:** The implementation repository `company-os-monitor` currently
+implements the cognitive flow of Company OS (Reality → Decision) as a
+one-shot pipeline, plus the SAP R/3 external capability (D-2026-08-07). A
+product blueprint now specifies the surrounding datacenter-observability
+product: telemetry agents (Linux/Windows/VMware/network), a web dashboard,
+threshold alerts, executive PDF reports, multi-tenant authentication, and
+local LLM analysis (LM Studio, OpenAI-compatible). None of these map to a
+cognitive concept. Per E2 and R9, they cannot be treated as cognitive
+components of the architecture.
+
+**Decision:** `company-os-monitor` keeps its name and becomes the product. The
+cognitive core (the canonical flow in `app/`) is the brain; everything else
+(agents, API, dashboard, alerts, reports, authentication, LLM client) is an
+external, non-canonical product capability. The product blueprint is a
+specification document, not a concept; it does not alter the canonical flow
+and does not enter the Cognitive Lexicon.
+
+- The cognitive core remains the single source of reasoning: every decision
+  the product exposes must originate from the canonical flow.
+- External capabilities are labeled as such in code and docs (precedent:
+  D-2026-08-07 for SAP).
+- The product blueprint defines the boundaries: MVP scope, data schema,
+  API surface, and integration contracts. Changes to the blueprint follow the
+  same rule as the canon: recorded before the code changes.
+
+**Consequences:**
+
+- E2 holds: product components do not claim cognitive concept slots.
+- R9 holds: the architecture guides the product code.
+- The product blueprint lives in `company-os-monitor` (`docs/`) and is
+  versioned with the code.
+- Memory remains planned: the product must not implement it as operational.
+- The first implementation of this decision is the MVP phase of the product
+  blueprint in `company-os-monitor`.
+
+---
+
 ## Directive 001 — Recovery First
 
 **Status:** Recorded
