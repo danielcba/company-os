@@ -83,6 +83,15 @@ Memory is the next concept to define.
 4. Translate Cognitive Contracts into computational component specifications.
 5. Draft the software architecture and technology selection (Phase 3).
 
+## Product Roadmap (implementation repo `company-os-monitor`)
+
+The product blueprint merged the datacenter-observability roadmap
+(`docs/INFRADOCTOR_MASTER_PLAN.md`). Next product milestones per that roadmap:
+predictive models with measured calibration (ECE), WMI/AD/VMware/Veeam/network
+agents (currently skeletons), local LLM analysis, AI executive reports,
+MFA/RBAC, and audit logging. All follow the blueprint-before-code rule and
+map to canonical concepts or stay labeled external (D-2026-08-09, ADR-0002).
+
 ---
 
 ## How to Resume the Project

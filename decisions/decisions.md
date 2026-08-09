@@ -165,6 +165,18 @@ and does not enter the Cognitive Lexicon.
 - The first implementation of this decision is the MVP phase of the product
   blueprint in `company-os-monitor`.
 
+> Addendum (2026-08-09) — merge del master plan: the document
+> `INFRADOCTOR_MASTER_PLAN.md` (a datacenter observability roadmap) was merged
+> as a **roadmap specification** into the product blueprint
+> (`docs/INFRADOCTOR_MASTER_PLAN.md` in `company-os-monitor`). Per ADR-0002 and
+> this decision, its phases map to canonical concepts or are labeled external;
+> the alternative brands ("InfraDoctor"/"DOGO") are discarded. The predictive
+> engine ported from the plan (`product/services/predictor.py`) produces
+> expected patterns that feed the canonical flow as Q3 evidence; it never
+> decides on its own. Every forecast is labeled "not calibrated" until a
+> measured ECE exists (Mode Local). The parallel prototype (`doctor/`) is
+> retired; its valuable capabilities were re-routed through the canonical flow.
+
 ---
 
 ## Directive 001 — Recovery First
