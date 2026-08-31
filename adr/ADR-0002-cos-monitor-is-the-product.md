@@ -46,8 +46,7 @@ client — is an external, non-canonical product capability:
    is versioned with the code and recorded before the code changes.
 4. The name `company-os-monitor` prevails. The blueprint introduces no
    alternative product name.
-5. Memory is now operational (ADR-0003). The product's Memory & Learning layer
-   is adopted as the Framework's Memory capability.
+5. Memory remains planned: the product must not implement it as operational.
 
 ---
 

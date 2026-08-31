@@ -161,7 +161,7 @@ and does not enter the Cognitive Lexicon.
 - R9 holds: the architecture guides the product code.
 - The product blueprint lives in `company-os-monitor` (`docs/`) and is
   versioned with the code.
-- Memory is operational (ADR-0003): the product's Memory & Learning layer is adopted as the Framework's Memory capability.
+- Memory remains planned: the product must not implement it as operational.
 - The first implementation of this decision is the MVP phase of the product
   blueprint in `company-os-monitor`.
 
@@ -192,6 +192,23 @@ No new architectural concepts until canonical state is recovered.
 ```
 
 **Consequence:** The canonical state was reconstructed from the repository and its history. The Lexicon was completed from that recovered state.
+
+---
+
+## D-2026-08-30 — Adopt Monitor Memory & Learning Layer as Framework Memory Capability
+
+**Status:** Accepted
+
+**Context:** ADR-0002 (2026-08-09) stated "Memory remains planned." The Monitor has since implemented a complete Memory & Learning layer that was verified in PR #17. The Framework needs to recognize this capability formally.
+
+**Decision:** ADR-0003 formally adopts the Monitor's Memory & Learning layer as the Framework's Memory capability. ADR-0002 is preserved as a historical record; the "Memory remains planned" restriction is superseded by ADR-0003.
+
+**Consequences:**
+
+- Memory is now Official in the ontology (concept #11).
+- Cognitive Architecture v2.0 documents the Memory Layer as operational.
+- ADR-0002 is not modified (historical record preserved).
+- The Framework defines architectural invariants; the Monitor remains the reference implementation.
 
 ---
 
