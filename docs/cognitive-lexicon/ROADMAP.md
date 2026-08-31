@@ -1,6 +1,6 @@
 # Cognitive Lexicon Roadmap
 
-Version: 1.0
+Version: 1.1
 Status: Official
 Owner: Company OS
 
@@ -34,10 +34,10 @@ Owner: Company OS
 - [x] Confidence
 - [x] Recommendation
 - [x] Decision
+- [x] Memory
 
 ## Future
 
-- Memory
 - Mental Model formalization
 - Coherence evaluation mechanism
 - Hypothesis generation mechanism
@@ -48,9 +48,9 @@ Owner: Company OS
 
 ## Progress
 
-The Lexicon reached Official status for all ten Core Concepts and its supporting assets.
+The Lexicon reached Official status for all eleven Core Concepts and its supporting assets.
 
-The Cognitive Flow is fully defined from Reality to Memory (planned).
+The Cognitive Flow is fully defined from Reality to Memory.
 
 The next phase moves from the Lexicon to the Architecture: implementing the cognitive contracts as computational components.
 

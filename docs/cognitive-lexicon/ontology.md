@@ -1,6 +1,6 @@
 # Ontology
 
-Version: 1.1
+Version: 1.2
 Status: Official
 Owner: Company OS
 
@@ -41,7 +41,7 @@ The Core Concepts organize themselves into four cognitive families, plus one cro
 | Perception | Brings reality into the system | Observation, Evidence, Context |
 | Reasoning | Transforms understanding into structure | Pattern, Anomaly, Hypothesis, Insight |
 | Action | Converts understanding into behavior | Recommendation, Decision |
-| Learning | Improves the system through outcome | Confidence, Memory (future) |
+| Learning | Improves the system through outcome | Confidence, Memory |
 | Metacognition | Cognition applied to cognition | Cross-cutting (Confidence acts here) |
 
 Full definitions: [cognitive-families.md](cognitive-families.md)
@@ -64,6 +64,7 @@ Every concept defines exactly one cognitive capability.
 | 8 | Confidence | Learning | Calibrate | Official |
 | 9 | Recommendation | Action | Propose | Official |
 | 10 | Decision | Action | Commit | Official |
+| 11 | Memory | Learning | Consolidate | Official |
 
 ---
 
@@ -82,7 +83,7 @@ Relationships define how cognitive concepts interact.
 | Enables | One concept makes another possible without originating it | A ⇢ B | Evidence ⇢ Context |
 | Applies To | One concept assesses or governs another | A ↦ B | Confidence ↦ Decision |
 | Affects | One concept modulates another | A ⇝ B | Confidence ⇝ Decision threshold |
-| Improved By | One concept improves through feedback from another | A ← B | Confidence ← Memory (planned) |
+| Improved By | One concept improves through feedback from another | A ← B | Confidence ← Memory |
 
 Full definitions: [relationships.md](relationships.md)
 
@@ -115,7 +116,7 @@ Recommendation   proposes action
   ↓
 Decision         commits action
   ↓
-Memory           consolidates outcome (planned)
+Memory           consolidates outcome
 ```
 
 The flow is a reference, not a rigid path.
@@ -146,7 +147,6 @@ The ontology is a living map.
 It evolves through:
 
 - Validation of the Cognitive Principles against experience
-- Completion of the Learning family (Memory, mechanisms)
 - Discovery of new concepts through research
 - Formalization of mental models and coherence evaluation
 

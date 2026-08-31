@@ -70,10 +70,20 @@ Learning is the orientation that improves the system through time and outcome.
 | Concept | Capability |
 |---|---|
 | Confidence | Calibrate |
-| Memory | Consolidate (Future) |
+| Memory | Consolidate |
 
 Learning closes the cognitive loop.
 Every cycle produces the material for the next cycle to be better.
+
+Learning includes the following sub-capabilities:
+
+| Sub-capability | Purpose |
+|---|---|
+| Evaluation | Manages Hypothesis lifecycle (candidate → confirmed / falsified / insufficient) |
+| Consolidation | Computes calibration feedback from Decision outcomes |
+| Pattern Refinement | Attributes outcomes to Patterns, recommends keep/degrade/deactivate |
+| Context Revision | Attributes outcomes to Contexts, recommends keep/review/consider_competitor |
+| Insight Transformation | Journals Insight changes, classifies revised/stable/unchanged |
 
 ---
 
@@ -101,6 +111,5 @@ Metacognition monitors the quality of reasoning, detects failures, and redirects
 
 Future versions may define:
 
-- The Learning family in full (Memory and its mechanisms)
 - New families revealed by discovery
 - Cross-family mechanisms (e.g., metacognition applied to perception)

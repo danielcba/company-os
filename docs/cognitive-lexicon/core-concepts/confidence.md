@@ -119,7 +119,7 @@ Recommendation strength and Decision threshold
 
 ### Improved By
 
-Memory (planned) and Learning (historical outcomes)
+Memory and Learning (historical outcomes)
 
 ---
 
