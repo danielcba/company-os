@@ -161,7 +161,7 @@ and does not enter the Cognitive Lexicon.
 - R9 holds: the architecture guides the product code.
 - The product blueprint lives in `company-os-monitor` (`docs/`) and is
   versioned with the code.
-- Memory remains planned: the product must not implement it as operational.
+- Memory is operational (ADR-0003): the product's Memory & Learning layer is adopted as the Framework's Memory capability.
 - The first implementation of this decision is the MVP phase of the product
   blueprint in `company-os-monitor`.
 

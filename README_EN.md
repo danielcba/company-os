@@ -59,7 +59,7 @@ Full definitions: [docs/cognitive-lexicon/cognitive-principles.md](docs/cognitiv
 
 ```
 Reality → Observation → Evidence → Context → Pattern → Anomaly
-       → Hypothesis → Insight → Confidence → Recommendation → Decision → Memory (planned)
+       → Hypothesis → Insight → Confidence → Recommendation → Decision → Memory
 ```
 
 ---
@@ -106,7 +106,7 @@ company-os-main/
 ### Phase 2 — Architecture (In Progress)
 
 - [ ] Translate cognitive contracts into computational components
-- [ ] Define Memory and the Learning mechanisms
+- [x] Define Memory and the Learning mechanisms (ADR-0003)
 - [ ] Formalize mental models and coherence evaluation
 - [ ] Design the perception–reasoning–action boundary
 

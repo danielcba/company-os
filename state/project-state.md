@@ -1,6 +1,6 @@
 # Project State
 
-Version: 1.0
+Version: 1.1
 Status: Official
 Owner: Company OS
 
@@ -40,6 +40,8 @@ Phase 2 (Architecture) has begun.
 ### Governance — Official
 
 - [x] ADR-0001: Company OS is the Brain
+- [x] ADR-0002: COS-Monitor is the Product
+- [x] ADR-0003: Adopt Monitor Memory & Learning Layer as Framework Memory Capability
 - [x] Decisions log
 - [x] RFC process
 - [x] Document template
@@ -67,21 +69,23 @@ Phase 2 (Architecture) has begun.
 
 ```
 Reality → Observation → Evidence → Context → Pattern → Anomaly
-       → Hypothesis → Insight → Confidence → Recommendation → Decision → Memory (planned)
+       → Hypothesis → Insight → Confidence → Recommendation → Decision → Memory
+                                                                 ↓
+                                                  Learning Loop (consolidation → signals)
+                                                                 ↓
+                                        Pattern Refinement / Context Revision / Insight Transformation
 ```
 
-All ten concepts are Official.
-Memory is the next concept to define.
+All 11 concepts are Official. Memory is operational (ADR-0003).
 
 ---
 
 ## Next Steps
 
-1. Define Memory (the first concept of the Learning family).
-2. Formalize mental models and coherence evaluation.
-3. Define the mechanisms of the reasoning layer.
-4. Translate Cognitive Contracts into computational component specifications.
-5. Draft the software architecture and technology selection (Phase 3).
+1. Formalize mental models and coherence evaluation.
+2. Define the mechanisms of the reasoning layer.
+3. Translate Cognitive Contracts into computational component specifications.
+4. Draft the software architecture and technology selection (Phase 3).
 
 ## Product Roadmap (implementation repo `company-os-monitor`)
 
@@ -108,3 +112,4 @@ map to canonical concepts or stay labeled external (D-2026-08-09, ADR-0002).
 ## State Recovery History
 
 - 2026-07-31: Lexicon completed and declared Official. Phase 2 declared open.
+- 2026-08-30: Memory & Learning Layer synchronized from Monitor (ADR-0003). Memory status: planned → operational. Cognitive Architecture v2.0. Ontology v1.2.

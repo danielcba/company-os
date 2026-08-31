@@ -59,7 +59,7 @@ Definiciones completas: [docs/cognitive-lexicon/cognitive-principles.md](docs/co
 
 ```
 Realidad → Observación → Evidencia → Contexto → Patrón → Anomalía
-       → Hipótesis → Insight → Confianza → Recomendación → Decisión → Memoria (futura)
+       → Hipótesis → Insight → Confianza → Recomendación → Decisión → Memoria
 ```
 
 ---
@@ -106,7 +106,7 @@ company-os-main/
 ### Fase 2 — Arquitectura (En Progreso)
 
 - [ ] Traducir los contratos cognitivos a componentes computacionales
-- [ ] Definir la Memoria y los mecanismos de Aprendizaje
+- [x] Definir la Memoria y los mecanismos de Aprendizaje (ADR-0003)
 - [ ] Formalizar los modelos mentales y la evaluación de coherencia
 - [ ] Diseñar el límite percepción–razonamiento–acción
 
