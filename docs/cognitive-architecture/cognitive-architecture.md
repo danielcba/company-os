@@ -200,6 +200,13 @@ Decision
 - Architectural changes (architecture guides code, R7).
 - Causal mechanisms (correlation is not causation).
 
+### Design Debt
+
+Not every Decision produces an observable Outcome. The Learning Loop
+currently assumes Decision → Outcome is always available. The behavior
+when an Outcome is absent or indefinitely deferred is not yet formally
+defined. This is a known gap to be addressed in a future phase.
+
 ### Sub-capabilities
 
 | Sub-capability | Purpose | Relationship |
@@ -248,7 +255,7 @@ insufficient → remains candidate
   evidence-based. The Evidence Boundary is enforced: no Hypothesis may be
   evaluated against raw Observations.
 - **Falsification is terminal.** Once a Hypothesis is falsified, it cannot be
- 复活 by Confidence or any other mechanism. This is a safety invariant.
+  revived by Confidence or any other mechanism. This is a safety invariant.
 - **Confidence gating.** Confirmation requires a minimum Confidence threshold.
   This prevents premature confirmation of weakly supported Hypotheses.
 - **Append-only evaluations.** Each evaluation is a new record. No evaluation
@@ -390,7 +397,7 @@ idempotent writes without requiring external UUID generation.
 
 - The Ledger can be replayed to reconstruct Learning state.
 - Deduplication occurs at write time via the content hash. Duplicate
-  signals are silently ignored (ON CONFLICT DO NOTHING).
+  signals are silently ignored, preserving idempotency.
 
 ---
 

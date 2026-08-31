@@ -6,7 +6,7 @@ Status: Accepted
 
 Date: 2026-08-30
 
-Supersedes: —
+Supersedes: ADR-0002 (regarding "Memory remains planned" restriction)
 
 Related: ADR-0001, ADR-0002, P7
 
@@ -46,8 +46,10 @@ The Monitor now implements a complete Memory & Learning layer:
 
 The Framework currently labels Memory as "planned" or "future" throughout its
 documentation. ADR-0002 states: "Memory remains planned: the product must not
-implement it as operational." This was accurate when written but no longer
-reflects the verified state of the Monitor.
+implement it as operational." This was accurate when written (2026-08-09) but
+no longer reflects the verified state of the Monitor. ADR-0002 is a historical
+decision record and is not modified by this ADR; the evolution is expressed
+here.
 
 The Framework needs to recognize formally that Memory is implemented and
 operational, without confusing architectural invariants with implementation
@@ -96,9 +98,11 @@ Memory capability, preserving all architectural invariants.**
 ### What Does NOT Change
 
 - ADR-0001 (Company OS is the Brain): unaffected.
-- ADR-0002 (COS-Monitor is the Product): updated only to remove the
-  "Memory remains planned" restriction, since it is now operational.
-- The 10 Core Concepts and their definitions: unchanged.
+- ADR-0002 (COS-Monitor is the Product): preserved as historical record. The
+  "Memory remains planned" restriction was accurate at time of acceptance.
+  This ADR supersedes that specific restriction by introducing a new decision.
+- The 10 Core Concepts and their definitions: unchanged (Memory is added as
+  concept #11, not a modification of existing concepts).
 - The 7 Cognitive Principles: unchanged.
 - The Design Rules (R1-R7): unchanged.
 - The Cognitive Boundary: unchanged.
@@ -120,8 +124,8 @@ Memory capability, preserving all architectural invariants.**
 
 ### Negative
 
-- ADR-0002 requires a targeted update to remove the "Memory remains planned"
-  restriction. This is a minor edit that preserves the ADR's intent.
+- ADR-0002 contains a "Memory remains planned" restriction that is now
+  superseded by this ADR. ADR-0002 itself is not modified (historical record).
 - The Framework now carries a larger surface area for Memory documentation.
 - The distinction between architectural specification and implementation
   reference must be carefully maintained.
