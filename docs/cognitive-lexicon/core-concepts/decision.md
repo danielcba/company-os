@@ -88,11 +88,11 @@ Context, Hypothesis, Insight, and Confidence
 
 ### Leads To
 
-Memory (planned) (the decision and its outcome will become part of the system's history)
+Memory (the decision and its outcome will become part of the system's history)
 
 ### Evaluated By
 
-Outcome — a reference to the results managed by Memory (planned) and Learning
+Outcome — a reference to the results managed by Memory and Learning
 
 ---
 

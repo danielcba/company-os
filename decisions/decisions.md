@@ -195,6 +195,23 @@ No new architectural concepts until canonical state is recovered.
 
 ---
 
+## D-2026-08-30 — Adopt Monitor Memory & Learning Layer as Framework Memory Capability
+
+**Status:** Accepted
+
+**Context:** ADR-0002 (2026-08-09) stated "Memory remains planned." The Monitor has since implemented a complete Memory & Learning layer that was verified in PR #17. The Framework needs to recognize this capability formally.
+
+**Decision:** ADR-0003 formally adopts the Monitor's Memory & Learning layer as the Framework's Memory capability. ADR-0002 is preserved as a historical record; the "Memory remains planned" restriction is superseded by ADR-0003.
+
+**Consequences:**
+
+- Memory is now Official in the ontology (concept #11).
+- Cognitive Architecture v2.0 documents the Memory Layer as operational.
+- ADR-0002 is not modified (historical record preserved).
+- The Framework defines architectural invariants; the Monitor remains the reference implementation.
+
+---
+
 ## Directive 002 — Journaling at the Point of Change
 
 **Status:** Recorded

@@ -66,7 +66,7 @@ Every conclusion is traceable through the Cognitive Flow:
 
 ```
 Reality → Observation → Evidence → Context → Pattern → Anomaly → Hypothesis
-→ Insight → Confidence → Recommendation → Decision → Memory (planned)
+→ Insight → Confidence → Recommendation → Decision → Memory
 ```
 
 ---

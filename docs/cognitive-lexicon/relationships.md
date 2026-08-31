@@ -84,7 +84,7 @@ Examples:
 
 - Insight ⟹ Recommendation
 - Recommendation ⟹ Decision
-- Decision ⟹ Memory (planned)
+- Decision ⟹ Memory
 
 ---
 
@@ -169,7 +169,7 @@ Notation: `A ← B`
 
 Examples:
 
-- Confidence ← Memory (planned)
+- Confidence ← Memory
 - Confidence ← Learning
 
 ---
@@ -215,7 +215,7 @@ Concept files use the following passive forms, each equivalent to the inverse of
 | Insight | Leads To | Recommendation |
 | Confidence | Applies To | Hypothesis, Recommendation, Decision |
 | Confidence | Affects | Recommendation strength, Decision threshold |
-| Confidence | Improved By | Memory (planned), Learning |
+| Confidence | Improved By | Memory, Learning |
 | Recommendation | Requires | Context |
 | Recommendation | Requires | Hypothesis |
 | Recommendation | Requires | Confidence |
@@ -224,8 +224,8 @@ Concept files use the following passive forms, each equivalent to the inverse of
 | Decision | Requires | Hypothesis |
 | Decision | Requires | Insight |
 | Decision | Requires | Confidence |
-| Decision | Leads To | Memory (planned) |
-| Memory (planned) | Supports | Confidence |
+| Decision | Leads To | Memory |
+| Memory | Supports | Confidence |
 
 ---
 
@@ -233,7 +233,7 @@ Concept files use the following passive forms, each equivalent to the inverse of
 
 ```
 Reality → Observation → Evidence → Context → Pattern → Anomaly
-       → Hypothesis → Insight → Confidence → Recommendation → Decision → Memory (planned)
+       → Hypothesis → Insight → Confidence → Recommendation → Decision → Memory
 ```
 
 ---

@@ -38,7 +38,7 @@ Imagina que eres un **médico**.
 8. Evalúas **qué tan seguro** estás. *(Confianza)*
 9. **Sugieres** un tratamiento. *(Recomendación)*
 10. Decides **aplicarlo** y te comprometes. *(Decisión)*
-11. Semanas después **recuerdas el caso** y aprendes de cómo terminó. *(Memoria — futura)*
+11. Semanas después **recuerdas el caso** y aprendes de cómo terminó. *(Memoria)*
 
 Ese camino completo es el **Flujo Cognitivo** de Company OS.
 
@@ -62,7 +62,7 @@ flowchart LR
     I --> CF[CONFIANZA<br/>medir la seguridad]
     CF --> R1[RECOMENDACIÓN<br/>proponer acción]
     R1 --> D[DECISIÓN<br/>comprometerse]
-    D --> M[MEMORIA<br/>aprender del resultado (futura)]
+    D --> M[MEMORIA<br/>aprender del resultado]
     M -.vuelve a empezar.-> O
 ```
 
@@ -91,7 +91,7 @@ RECOMENDACIÓN      propone una acción
    ↓
 DECISIÓN           se compromete con la acción
    ↓
-MEMORIA (futura)   consolida el resultado y aprende
+MEMORIA            consolida el resultado y aprende
 ```
 
 ### Qué significa cada paso (con analogía)
@@ -108,7 +108,7 @@ MEMORIA (futura)   consolida el resultado y aprende
 | **Confianza** | Qué tan seguro estoy, medido. | "Estoy 85% seguro, no 100%". |
 | **Recomendación** | Proponer qué hacer. | "Sugiero hacerse análisis". |
 | **Decisión** | Comprometerse a hacerlo. | "Voy al laboratorio mañana". |
-| **Memoria (futura)** | Guardar y aprender del resultado. | "La próxima vez iré antes". |
+| **Memoria** | Guardar y aprender del resultado. | "La próxima vez iré antes". |
 
 ---
 
@@ -300,7 +300,7 @@ La acción elegida, con responsable y resultado esperado.
 8. **Confianza:** 0.83 — calibrada (S=0.80, C=0.90, ECE=0.02; C_final = [0.5·0.80 + 0.5·0.90]·(1−0.02)).
 9. **Recomendación:** "Configurar la rotación de logs y liberar espacio. Alternativa: ampliar el disco."
 10. **Decisión:** "Se aprueba la rotación de logs para esta semana, con ampliación del disco como plan B."
-11. **Memoria (futura):** El caso quedará guardado; en el futuro el sistema podrá reconocer el patrón antes.
+11. **Memoria:** El caso quedará guardado; el sistema podrá reconocer el patrón antes.
 
 ---
 
