@@ -155,11 +155,11 @@ Confidence is computed from:
 
 ## Learning Loop
 
-Every Decision produces an outcome.
+Every Decision records an expected Outcome.
 
 The Learning Loop is the concrete realization of P7 (Learning Through Outcome).
-It is not a phase — it is a continuous cycle that runs after each Decision
-produces an observable Outcome.
+It is not a phase — it is a continuous cycle that runs when an observable
+actual Outcome becomes available.
 
 ### Sequence
 
@@ -383,21 +383,14 @@ Revision, and Insight Transformation in a durable, append-only store.
 
 - **Append-only**: Records are never updated or deleted (P1).
 - **Tenant-scoped**: All records are scoped to a tenant.
-- **Idempotent**: Duplicate signals are deduplicated by content hash.
+- **Idempotent**: Duplicate signals produce no additional effect. The
+  deduplication mechanism is an implementation detail.
 - **Traceable**: Every record traces to its originating signal type,
   target, Decision, and Outcome.
 
-### Signal Identity
-
-Each signal has a deterministic identity derived from its content:
-signal type + target type + target id + content hash. This enables
-idempotent writes without requiring external UUID generation.
-
-### Replay and Deduplication
+### Replay
 
 - The Ledger can be replayed to reconstruct Learning state.
-- Deduplication occurs at write time via the content hash. Duplicate
-  signals are silently ignored, preserving idempotency.
 
 ---
 

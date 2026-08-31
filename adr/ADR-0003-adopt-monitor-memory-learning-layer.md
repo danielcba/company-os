@@ -77,8 +77,10 @@ Memory capability, preserving all architectural invariants.**
 
 - **Append-only**: Memory writes are never updated or deleted (P1).
 - **Tenant-scoped**: All Memory operations are scoped to a tenant.
-- **Idempotency**: Duplicate signals are deduplicated by content hash.
-- **Provenance**: Every Memory signal traces back to a Decision and Outcome.
+- **Idempotent**: Duplicate signals produce no additional effect. The
+  deduplication mechanism is an implementation concern, not an architectural
+  obligation.
+- **Traceable**: Every Memory signal traces back to a Decision and Outcome.
 - **Cognitive Boundary**: Memory does not imply action authority.
 - **Evidence Boundary**: Reasoning operates on Evidence, never on raw
   Observations.
@@ -97,12 +99,15 @@ Memory capability, preserving all architectural invariants.**
 
 ### What Does NOT Change
 
-- ADR-0001 (Company OS is the Brain): unaffected.
+- ADR-0001 (Company OS is the Brain): architecturally unchanged; its
+  descriptive reference to Memory was synchronized from "planned" to
+  "operational" to maintain documentation consistency.
 - ADR-0002 (COS-Monitor is the Product): preserved as historical record. The
   "Memory remains planned" restriction was accurate at time of acceptance.
   This ADR supersedes that specific restriction by introducing a new decision.
-- The 10 Core Concepts and their definitions: unchanged (Memory is added as
-  concept #11, not a modification of existing concepts).
+- The existing 10 Core Concepts and their definitions remain unchanged.
+  Memory is added as the 11th Core Concept, not a modification of existing
+  concepts.
 - The 7 Cognitive Principles: unchanged.
 - The Design Rules (R1-R7): unchanged.
 - The Cognitive Boundary: unchanged.
