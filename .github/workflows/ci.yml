@@ -1,0 +1,23 @@
+name: Framework CI
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate ADR existence
+        run: |
+          test -f adr/ADR-0001-company-os-is-the-brain.md
+          test -f adr/ADR-0002-cos-monitor-is-the-product.md
+          test -f adr/ADR-0003-adopt-monitor-memory-learning-layer.md
+      - name: Validate core concepts
+        run: |
+          for c in observation evidence context pattern anomaly hypothesis insight confidence recommendation decision memory; do
+            test -f docs/cognitive-lexicon/core-concepts/$c.md
+          done
+      - name: Validate Memory concept position
+        run: |
+          grep -q "| 11 | Memory | Learning | Consolidate | Official |" docs/cognitive-lexicon/ontology.md
+      - name: Validate Memory Layer operational
+        run: |
+          grep -q "Memory Layer (operational)" docs/cognitive-architecture/cognitive-architecture.md
